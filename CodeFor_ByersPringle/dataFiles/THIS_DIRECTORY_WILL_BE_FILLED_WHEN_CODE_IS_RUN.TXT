@@ -1,0 +1,1 @@
+This directory stores the statistics created by 01_Get_and_Trim_data.R
