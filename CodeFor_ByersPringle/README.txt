@@ -17,7 +17,11 @@ The files are:
     01_Get_and_Trim_data.R: The file that downloads EZfate Lagrangian
     pathways and computes statistics.  If you want to change the
     definition of habitat, the vertical behavior, or the depth of
-    larvae, This is the file to alter.
+    larvae, This is the file to alter. Note well, by default this makes data
+    for the entire globe, and for many larval durations and seasons. This 
+    takes a while to calculate. If you don't need all of this calculated, you 
+    can alter it to only calculate what you need! This can save significant
+    time.
 
     averagePlaceOnSphere.R: A library that computes the average
     location of a set of points given in latitude and longitude in a
