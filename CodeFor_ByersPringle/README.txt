@@ -73,9 +73,9 @@ result in a data frame with the following fields:
 All other quantities in this paper can be straightforwardly calculated
 from this data. To walk you through this process, plot_results_on_map.R
 reads in the data that is calculated 01_Get_and_Trim_data.R, subsets it
-to only display a portion of the Carribean and Florida, calculates
+to only display a portion of the Carribbean and Florida, calculates
 the physical adversity (equation 3 in the paper), and then plots Ladv, Ldiff,
 the fraction retained in the domain, and the physical adversity. The data is
-plotted with plotly, so the resulting plots are iteractive.
+plotted with plotly, so the resulting plots are interactive.
 
 
