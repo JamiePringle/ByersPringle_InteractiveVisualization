@@ -42,6 +42,10 @@ The files are:
     dataFiles: a directory where the results of the calculations of
     01_Get_and_Trim_data.R will be placed.
 
+    plot_results_on_map.R: This is a little example of how to process
+    and display the quantities calculated by 01_Get_and_Trim_data.R or
+    derived from that data using equations in the paper. See below. 
+
 The results of the calculations in 01_Get_and_Trim_data.R will be
 stored in CSV files in dataFiles. These, when loaded into R, will
 result in a data frame with the following fields:
@@ -67,4 +71,11 @@ result in a data frame with the following fields:
        Lagrangian pathways
 
 All other quantities in this paper can be straightforwardly calculated
-from this data.
+from this data. To walk you through this process, plot_results_on_map.R
+reads in the data that is calculated 01_Get_and_Trim_data.R, subsets it
+to only display a portion of the Carribean and Florida, and then derives
+the physical adversity (equation 3 in the paper), and then plots Ladv, Ldiff,
+the fraction retained in the domain, and the physical adversity. The data is
+plotted with plotly, so the resulting plots are iteractive.
+
+
